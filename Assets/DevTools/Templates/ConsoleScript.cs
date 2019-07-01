@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Myscript : StartScript
+public class ConsoleScript : StartScript
 {
-	public override void Run() 
-	{
-	}
+    public override void Run()
+    {
+
+    }
 }
