@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class Draw
 {
-    public static void Line(float thickness, Color color, bool close, List<Vector2> points)
+    public static LineRenderer Line(float thickness, Color color, bool close, List<Vector2> points)
     {
         GameObject go = new GameObject("Line");
         LineRenderer line = go.AddComponent<LineRenderer>();
@@ -24,9 +24,10 @@ public static class Draw
         }
         line.positionCount = points.Count;
         line.SetPositions(positions);
+        return line;
     }
 
-    public static void Point(Color color, Vector2 point)
+    public static LineRenderer Point(Color color, Vector2 point)
     {
         GameObject go = new GameObject("Point");
         LineRenderer line = go.AddComponent<LineRenderer>();
@@ -44,5 +45,6 @@ public static class Draw
         positions[0] = new Vector3(point.x, point.y, 0);
         positions[1] = new Vector3(point.x + 0.01f, point.y);
         line.SetPositions(positions);
+        return line;
     }
 }

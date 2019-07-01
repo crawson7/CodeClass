@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
+/// /// ---------------------------------------------------------------------------------
+/// REVIEW DATA TYPES, FUNCTIONS, AND PRINTING TO CONSOLE
+/// HOW TO CREATE AND USE A LIST
+/// ---------------------------------------------------------------------------------
+/// 
 /// PART 1:
 /// Set the welcome message to print to the console, and run the program.
 /// Change the welcome message to something new.

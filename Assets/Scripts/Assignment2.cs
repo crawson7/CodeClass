@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
+/// ---------------------------------------------------------------------------------
+/// INTRODUCE VECTOR2 STRUCT
+/// INDRODUCTION TO DRAWING POINTS USING DRAW UTILITY
+/// ---------------------------------------------------------------------------------
+/// 
 /// PART 1:
 /// Create a Vector2 using new Vector2().
 /// Use Debug.Log to print out the value of your Vector2.
