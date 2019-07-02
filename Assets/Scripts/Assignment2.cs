@@ -38,7 +38,12 @@ public class Assignment2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        List<Vector2> list = new List<Vector2>();
+        list.Add(new Vector2(0, 0));
+        list.Add(new Vector2(0, 50));
+        list.Add(new Vector2(50, 50));
+        list.Add(new Vector2(50, 0));
+        Draw.Line(1, Color.green, true, list);
     }
 
     // PART 4
