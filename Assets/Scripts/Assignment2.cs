@@ -22,7 +22,7 @@ using UnityEngine;
 /// 
 /// PART 4:
 /// Write a function that will loop through any list of Vector2 and draw each of its points.
-/// Put your 4 corner points is a list.
+/// Put your 4 corner points in a list.
 /// Add A fifth point in the center of the screen.
 /// Use your new "DrawPoints" function to draw all 5 points.
 /// 
